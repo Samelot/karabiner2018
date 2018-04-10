@@ -1,0 +1,324 @@
+{
+  "title": "sam fkeys",
+  "rules": [
+    {
+      "description": "fkeys to consumer keys",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f1"
+          },
+          "to": [
+            {
+              "key_code": "display_brightness_decrement"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.coronalabs\\.Corona_Simulator$",
+                "^com\\.github\\.atom$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.adobe\\.Photoshop$",
+                "^com\\.cockos\\.reaper$",
+                "^com\\.allegorithmic\\.substance-painter$",
+                "^com\\.ZeroBrane\\.ZeroBraneStudio$",
+                "^com\\.ableton\\.live$"
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f2"
+          },
+          "to": [
+            {
+              "key_code": "display_brightness_increment"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.coronalabs\\.Corona_Simulator$",                
+                "^com\\.github\\.atom$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.adobe\\.Photoshop$",
+                "^com\\.cockos\\.reaper$",
+                "^com\\.allegorithmic\\.substance-designer$",
+                "^com\\.allegorithmic\\.substance-painter$",
+                "^com\\.ZeroBrane\\.ZeroBraneStudio$",
+                "^com\\.ableton\\.live$"                
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f3"
+          },
+          "to": [
+            {
+              "key_code": "mission_control"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.coronalabs\\.Corona_Simulator$",                
+                "^com\\.github\\.atom$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.adobe\\.Photoshop$",
+                "^com\\.cockos\\.reaper$",
+                "^com\\.allegorithmic\\.substance-painter$",
+                "^com\\.ZeroBrane\\.ZeroBraneStudio$",
+                "^com\\.ableton\\.live$"                
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f4"
+          },
+          "to": [
+            {
+              "key_code": "dashboard"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.coronalabs\\.Corona_Simulator$",                
+                "^com\\.github\\.atom$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.adobe\\.Photoshop$",
+                "^com\\.cockos\\.reaper$",
+                "^com\\.allegorithmic\\.substance-painter$",
+                "^com\\.ZeroBrane\\.ZeroBraneStudio$",
+                "^com\\.ableton\\.live$"                
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f5"
+          },
+          "to": [
+            {
+              "key_code": "illumination_decrement"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.coronalabs\\.Corona_Simulator$",                
+                "^com\\.github\\.atom$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.adobe\\.Photoshop$",
+                "^com\\.cockos\\.reaper$",
+                "^com\\.allegorithmic\\.substance-painter$",
+                "^com\\.ZeroBrane\\.ZeroBraneStudio$",
+                "^com\\.ableton\\.live$"                
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f6"
+          },
+          "to": [
+            {
+              "key_code": "illumination_increment"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.coronalabs\\.Corona_Simulator$",                
+                "^com\\.github\\.atom$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.adobe\\.Photoshop$",
+                "^com\\.cockos\\.reaper$",
+                "^com\\.allegorithmic\\.substance-painter$",
+                "^com\\.ZeroBrane\\.ZeroBraneStudio$",
+                "^com\\.ableton\\.live$"                
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f7"
+          },
+          "to": [
+            {
+              "key_code": "rewind"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.coronalabs\\.Corona_Simulator$",                
+                "^com\\.github\\.atom$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.adobe\\.Photoshop$",
+                "^com\\.cockos\\.reaper$",
+                "^com\\.allegorithmic\\.substance-painter$",
+                "^com\\.ZeroBrane\\.ZeroBraneStudio$",
+                "^com\\.ableton\\.live$"                
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f8"
+          },
+          "to": [
+            {
+              "key_code": "play_or_pause"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.coronalabs\\.Corona_Simulator$",                
+                "^com\\.github\\.atom$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.adobe\\.Photoshop$",
+                "^com\\.cockos\\.reaper$",
+                "^com\\.allegorithmic\\.substance-painter$",
+                "^com\\.ZeroBrane\\.ZeroBraneStudio$",
+                "^com\\.ableton\\.live$"                
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f9"
+          },
+          "to": [
+            {
+              "key_code": "fastforward"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.coronalabs\\.Corona_Simulator$",                
+                "^com\\.github\\.atom$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.adobe\\.Photoshop$",
+                "^com\\.cockos\\.reaper$",
+                "^com\\.allegorithmic\\.substance-painter$",
+                "^com\\.ZeroBrane\\.ZeroBraneStudio$",
+                "^com\\.ableton\\.live$"                
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f10"
+          },
+          "to": [
+            {
+              "key_code": "mute"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.coronalabs\\.Corona_Simulator$",                
+                "^com\\.github\\.atom$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.adobe\\.Photoshop$",
+                "^com\\.cockos\\.reaper$",
+                "^com\\.allegorithmic\\.substance-painter$",
+                "^com\\.ZeroBrane\\.ZeroBraneStudio$",
+                "^com\\.ableton\\.live$"                
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f11"
+          },
+          "to": [
+            {
+              "key_code": "volume_decrement"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.coronalabs\\.Corona_Simulator$",
+                "^com\\.github\\.atom$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.adobe\\.Photoshop$",
+                "^com\\.cockos\\.reaper$",
+                "^com\\.allegorithmic\\.substance-painter$",
+                "^com\\.ZeroBrane\\.ZeroBraneStudio$",
+                "^com\\.ableton\\.live$"                
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f12"
+          },
+          "to": [
+            {
+              "key_code": "volume_increment"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.coronalabs\\.Corona_Simulator$",                
+                "^com\\.github\\.atom$",
+                "^com\\.sublimetext\\.3$",
+                "^com\\.adobe\\.Photoshop$",
+                "^com\\.cockos\\.reaper$",
+                "^com\\.allegorithmic\\.substance-painter$",
+                "^com\\.ZeroBrane\\.ZeroBraneStudio$",
+                "^com\\.ableton\\.live$"                
+              ]
+            }
+          ]
+        }                
+      ]
+    }
+  ]
+}
